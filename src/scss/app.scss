@@ -1,2 +1,6 @@
 @use 'variables.scss';
 @use 'general.scss';
+
+h1 {
+  @include h1;
+}
