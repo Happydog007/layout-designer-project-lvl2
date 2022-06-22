@@ -97,6 +97,20 @@ a {
 .header_href:nth-child(n+3) {
   margin-right: 24px;
 }
+
+.header_search-form {
+}
+
+.header_input-form {
+  background-color: #3C3B3D;
+  border-radius: 50px;
+}
+
+input[type=text] {
+  padding: 5px 0 5px 10px;
+  height: 25px;
+  color: #757575;
+}
  
 .header_main {
   margin: 0 auto;
