@@ -69,11 +69,13 @@ a {
   top: 25px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header_left-flex,
 .header_right-flex {
   display: flex;
+  align-items: center;
 }
 
 .header_href-margin {
@@ -96,9 +98,6 @@ a {
 
 .header_href:nth-child(n+3) {
   margin-right: 24px;
-}
-
-.header_search-form {
 }
 
 .header_input-form {
