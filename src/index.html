@@ -21,26 +21,29 @@
                     <a class="header_href" href="#">Исполнители</a>
                     <a class="header_href" href="#">Контакты</a>
                 </div>
-                <div class="header_right-flex">
-                    <form>
-                        <label for="search" class="sr-only">Поиск по сайту</label>
-                        <input class="header_input-form" id="search" type="text" placeholder="Поиск...">
-                    </form>
-                </div>
+                <form class="header_search-form">
+                    <label for="search" class="sr-only">Поиск по сайту</label>
+                    <input class="header_input-form" id="search" type="text" placeholder="Поиск...">
+                </form>
             </nav>
             <section class="header_main">
                 <h1>Онлайн музыка где угодно</h1>
                 <h2>без ограничений</h2>
                 <p>Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
-                <form>
-                    <label for="name" class="sr-only">Введите ваше имя</label>
-                    <input id="name" type="text" placeholder="Имя">
-                </form>
-                <form>
-                    <label for="email" class="sr-only">Введите ваш email</label>
-                    <input id="email" type="text" placeholder="Email">
-                </form>
-                <button>Получить доступ</button>
+                <div class="header_grid">
+                    <form class="header_form-name">
+                        <label for="name" class="sr-only">Введите ваше имя</label>
+                        <input id="name" type="text" placeholder="Имя">
+                    </form>
+                    <form class="header_form-email">
+                        <label for="email" class="sr-only">Введите ваш email</label>
+                        <input id="email" type="text" placeholder="Email">
+                    </form>
+                    <form class="header_form-submit">
+                        <label for="send" class="sr-only">Получить доступ</label>
+                        <input id="send" type="submit" value="Получить доступ">
+                    </form>
+                </div>
             </section>
         </div>
     </header>
