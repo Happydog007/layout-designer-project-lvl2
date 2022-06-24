@@ -1,3 +1,13 @@
+:root {
+  --white: #fff;
+  --light-white: #e0e0e0;
+  --light-grey: #cacaca;
+  --orange: #f89202;
+  --dark-orange: #95390c;
+  --green: #34c176;
+  --grey: #757575;
+}
+
 @font-face {
   font-family: 'Roboto Bold';
   src: url(fonts/Roboto-Bold.ttf);
@@ -70,7 +80,7 @@ a {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 100vw;
+  width: 100%;
   background-image: url(images/banner.png);
   background-position: center;
   background-size: cover;
@@ -127,15 +137,11 @@ a {
   background-color: #3C3B3D;
   border-radius: 50px;
 }
- 
-.header_main {
-  margin: 0 auto;
-}
 
 .header_main p {
-  margin-top: 31px;
   text-align: center;
-  background-color: none;
+  margin-top: 31px;
+  margin-bottom: 24px;
 }
 
 .header_grid {
@@ -164,20 +170,25 @@ a {
   text-align: center;
   padding: 20px 30px;
   grid-column: span 2;
+  background: #34C176;
+  border-radius: 5px;
+}
+
+.header_input::-webkit-input-placeholder {
+  color:var(--white);
+}
+
+.header_input {
+  color: var(--white);
+  background-color: transparent;
+}
+
+.header_input-send {
   font-family: Arial, sans-serif;
   font-weight: 400;
   font-size: 13.3px;
   line-height: 15px;
   text-transform: uppercase;
-  background: #34C176;
-  border-radius: 5px;
-}
-
-plac
-
-input[type="text"] {
-  color: #fff;
-  background: none;
 }
 
 .sr-only {
@@ -192,4 +203,8 @@ input[type="text"] {
   white-space: nowrap;
   }
   
-
+@media (max-width: 564px) {
+  .header {
+    padding: auto 20px;
+  }
+}
