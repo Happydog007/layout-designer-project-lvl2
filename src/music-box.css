@@ -138,6 +138,7 @@ a {
 .header_input-form {
   height: 25px;
   padding: 5px 0 5px 10px;
+  text-transform: uppercase;
   color: #757575;
   background-color: #3C3B3D;
   border-radius: 50px;
@@ -224,9 +225,8 @@ a {
     text-transform: uppercase;
   }
 
-  .header {
-    padding-left: 20px;
-    padding-right: 20px;
+  .header_div-center {
+    margin: 0 20px;
   }
 
   .header_left-flex, .header_nav {
@@ -240,9 +240,32 @@ a {
 
   .header_left-flex {
     align-items: flex-start;
+    gap: 3px 0;
+  }
+
+  .header_name {
+    margin-bottom: 14px;
+  }
+
+  .header_href {
+    font-weight: 700;
   }
 
   .header_search-form {
     width: 100%;
+    margin-top: 18px;
+  }
+
+  .header_main {
+    margin-top: 230px;
+  }
+
+  .header_grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header_nav {
+    width: auto;
   }
 }
