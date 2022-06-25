@@ -256,8 +256,12 @@ a {
     margin-top: 18px;
   }
 
+  .header_input-form {
+    width: calc(100vw - 40px);
+  }
+
   .header_main {
-    margin-top: 230px;
+    margin-top: 50px;
   }
 
   .header_grid {
