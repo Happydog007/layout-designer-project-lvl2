@@ -423,6 +423,22 @@ a {
     width: auto;
   }
 
+  .div-center {
+    margin: 0 20px;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .pricing-item:not(:first-child) {
+    margin-top: 0;
+  }
+
+  .price_description {
+    font-size: 16px;
+  }
+
   .footer_main {
     display: flex;
     flex-direction: column;
