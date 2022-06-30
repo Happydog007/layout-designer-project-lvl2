@@ -34,6 +34,7 @@
 body {
   height: 100%;
   width: 100%;
+  background-color: #08020D;
 }
 
 h1 {
@@ -70,6 +71,19 @@ a {
   text-decoration: none;
 }
 
+.bg::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  content: "";
+}
+
 .header {
   height: 100%;
   position: relative;
@@ -77,20 +91,10 @@ a {
 }
 
 .header::before {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
   background-image: url(images/banner.png);
-  background-position: center;
-  background-size: cover;
-  z-index: -1;
-  content: "";
 }
 
-.header_div-center {
+.div-center {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -195,6 +199,98 @@ a {
   font-size: 13.3px;
   line-height: 15px;
   text-transform: uppercase;
+}
+
+.price {
+  padding-top: 100px;
+}
+
+.flex {
+  display: flex;
+  gap: 50px;
+}
+
+.pricing-item {
+  margin-top: 50px;
+  position: relative;
+  padding: 0 1.5rem;
+  border-radius: 1rem;
+}
+
+.bg-free::before {
+  border-radius: 1rem;
+  background-image: url(images/subscribe_1.png);
+}
+
+.bg-std::before {
+  border-radius: 1rem;
+  background-image: url(images/subscribe_2.png);
+}
+
+.bg-prem::before {
+  border-radius: 1rem;
+  background-image: url(images/subscribe_3.png);
+}
+
+.pricing-item h3 {
+  margin-top: 24px;
+  margin-bottom: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+}
+
+.pricing-value {
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+}
+
+.pricing-money {
+  line-height: 150%;
+  vertical-align: top;
+  font-size: 32px;
+}
+
+.btn {
+  min-width: 270px;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.pricing-footer {
+  margin-bottom: 64px;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 150%;
+}
+
+.price_description {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
 }
 
 .footer {
