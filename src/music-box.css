@@ -84,7 +84,8 @@ a {
   content: "";
 }
 
-.header {
+.header,
+.header-artist {
   height: 100%;
   position: relative;
   padding: 200px 0;
@@ -92,6 +93,51 @@ a {
 
 .header::before {
   background-image: url(images/banner.png);
+}
+
+.header-artist::before {
+  background-image: url(images/Morten\ Harket.png);
+}
+
+.header-morten h1 {
+  padding-bottom: 16px;
+  text-align: start;
+}
+
+.header-morten .number-fans {
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+  text-align: start;
+}
+
+.header_flex {
+  margin-top: 48px;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header_flex a:first-of-type {
+  background-color: #5328A1;;
+}
+
+.header_flex .btn {
+  width: 200px;
+  margin-bottom: 0;
+  justify-content: start;
+  padding: 20px 30px;
+  font-size: 12.8px;
+  border-radius: 5px;
+}
+
+.btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.header_btn {
+  display: flex;
+  gap: 16px;
 }
 
 .div-center {
@@ -392,9 +438,9 @@ a {
 .footer {
   height: 100%;
   position: relative;
-  padding-top: 62px;
-  padding-bottom: 49px;
-  background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
 .footer_main {
@@ -411,7 +457,7 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
   text-transform: none;
 }
 
@@ -422,6 +468,8 @@ a {
 
 .footer_nav p:first-child {
   margin-bottom: 15px;
+  line-height: 27px;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -516,6 +564,10 @@ a {
 
   .header_nav {
     width: auto;
+  }
+
+  .header_flex {
+    flex-direction: column;
   }
 
   .div-center {
