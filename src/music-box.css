@@ -355,7 +355,8 @@ a {
   margin-top: 18px;
 }
 
-.discography-info h3 {
+.discography-info h3,
+.similar-info h3 {
   font-family: 'Roboto Bold', sans-serif;
   color: #fff;
   font-size: 18px;
@@ -525,6 +526,25 @@ a {
 .app_photo {
   margin-top: 48px;
   flex-basis: 100%;
+}
+
+.similar {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.similar h2 {
+  text-align: start;
+  margin-bottom: 48px;
+}
+
+.similar-item img {
+  margin-bottom: 17px;
+}
+
+.similar-info h3,
+.similar-info p {
+  text-align: center;
 }
 
 .footer {
@@ -707,11 +727,13 @@ a {
     margin-top: 24px;
   }
 
-  .discography-item {
+  .discography-item,
+  .similar-item {
     width: 137px;
   }
 
-  .discography-item img {
+  .discography-item img,
+  .similar-item img {
     width: 137px;
     height: 137px;
   }
@@ -737,6 +759,10 @@ a {
 
   .app_btn {
     text-transform: none;
+  }
+
+  .similar {
+    margin-bottom: 100px;
   }
 
   .footer_main {
