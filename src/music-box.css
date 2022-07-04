@@ -253,16 +253,21 @@ a {
 
 .tracks h2 {
   text-align: start;
+  margin-bottom: 48px;
 }
 
 .list-of-tracks {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 25px;
 }
 
 .popular-track {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 55px auto;
+  grid-column-gap: 15px;
 }
 
 .popular-track img {
@@ -274,6 +279,7 @@ a {
 .track-info {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .track-info_right-flex {
@@ -284,10 +290,13 @@ a {
 .track-info_right-flex p,
 .track-info p {
   font-size: 12.8px;
+  color: #E0E0E0;
 }
 
 .track-info_right-flex p:first-child {
   font-weight: 700;
+  line-height: 19.2px;
+  text-transform: uppercase;
   color: #fff;
 }
 
@@ -320,6 +329,45 @@ a {
 .bg-prem::before {
   border-radius: 1rem;
   background-image: url(images/subscribe_3.png);
+}
+
+.discography {
+  padding-top: 100px;
+}
+
+.discography h2 {
+  text-align: start;
+  margin-bottom: 48px;
+}
+
+.discography_flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.discography-item img {
+  width: 250px;
+  height: 250px;
+}
+
+.discography-info {
+  margin-top: 18px;
+}
+
+.discography-info h3 {
+  font-family: 'Roboto Bold', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.discography-info p {
+  hyphens: auto;
+  color: #e0e0e0;
+  font-size: 16px;
 }
 
 .pricing-item h3 {
@@ -635,6 +683,11 @@ a {
     font-size: 16px;
   }
 
+  .list-of-tracks {
+    display: flex;
+    flex-direction: column;
+  }
+
   .musicians h2 {
     margin-bottom: 48px;
   }
@@ -652,6 +705,15 @@ a {
 
   .news-author {
     margin-top: 24px;
+  }
+
+  .discography-item {
+    width: 137px;
+  }
+
+  .discography-item img {
+    width: 137px;
+    height: 137px;
   }
 
   .app_tariff {
