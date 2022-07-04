@@ -247,6 +247,50 @@ a {
   text-transform: uppercase;
 }
 
+.tracks {
+  padding-top: 100px;
+}
+
+.tracks h2 {
+  text-align: start;
+}
+
+.list-of-tracks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popular-track {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-track img {
+  width: 55px;
+  height: 55px;
+  margin-right: 15px;
+}
+
+.track-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.track-info_right-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.track-info_right-flex p,
+.track-info p {
+  font-size: 12.8px;
+}
+
+.track-info_right-flex p:first-child {
+  font-weight: 700;
+  color: #fff;
+}
+
 .price {
   padding-top: 100px;
 }
