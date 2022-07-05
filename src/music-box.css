@@ -1,11 +1,14 @@
 :root {
   --white: #fff;
-  --light-white: #e0e0e0;
-  --light-grey: #cacaca;
+  --gray: #e0e0e0;
+  --light-gray: #cacaca;
   --orange: #f89202;
   --dark-orange: #95390c;
   --green: #34c176;
-  --grey: #757575;
+  --purple: #5328A1;
+  --dark-gray: #757575;
+  --dark: #3C3B3D;
+  --black: #08020D;
 }
 
 @font-face {
