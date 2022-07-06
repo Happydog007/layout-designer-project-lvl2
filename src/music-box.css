@@ -313,10 +313,14 @@ a {
 }
 
 .pricing-item {
-  margin-top: 50px;
+  margin-top: 45px;
   position: relative;
   padding: 0 1.5rem;
   border-radius: 1rem;
+}
+
+.pricing-item .btn {
+  padding: 20px 0;
 }
 
 .bg-free::before {
@@ -423,7 +427,6 @@ a {
 .pricing-footer {
   margin-bottom: 64px;
   text-align: center;
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12.8px;
@@ -432,6 +435,7 @@ a {
 
 .price_description {
   text-align: center;
+  font-size: 16px;
   margin-top: 40px;
 }
 
