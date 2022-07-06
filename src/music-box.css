@@ -74,6 +74,15 @@ a {
   text-decoration: none;
 }
 
+.div-center {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0 20px;
+}
+
 .bg {
   position: absolute;
   top: 0;
@@ -141,11 +150,6 @@ a {
 .header_btn {
   display: flex;
   gap: 16px;
-}
-
-.div-center {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .header_nav {
@@ -638,10 +642,6 @@ a {
   
 @media (max-width: 680px) {
 
-  body > section {
-    padding: 0 20px;
-  }
-
   h1 {
     font-size: 30px;
     line-height: 45px;
@@ -797,6 +797,7 @@ a {
     flex-direction: column;
     gap: 30px 0;
     margin-left: 20px;
+    margin-right: 20px;
   }
 
   .footer_low-menu {
@@ -804,6 +805,7 @@ a {
     flex-direction: column;
     gap: 16px 0;
     margin-left: 20px;
+    margin-right: 20px;
   }
 
   .footer_nav p:first-child {
