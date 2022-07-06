@@ -591,20 +591,24 @@ a {
   flex-direction: column;
 }
 
-.footer_nav p:first-child {
+.footer_nav h3 {
   margin-bottom: 15px;
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 18px;
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
+  color: #fff;
 }
 
 .footer_media {
   display: flex;
+  align-items: center;
   gap: 0 24px;
 }
 
 .border {
-  border-top: var(--light-grey) 2px solid;
+  border-top: var(--light-gray) 2px solid;
 }
 
 .footer_low-menu {
