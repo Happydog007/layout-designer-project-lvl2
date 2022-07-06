@@ -415,6 +415,7 @@ li {
 }
 
 .pricing-money {
+  padding-left: 16px;
   line-height: 150%;
   vertical-align: top;
   font-size: 32px;
@@ -482,6 +483,10 @@ li {
   color: #FFFFFF;
 }
 
+.news-body p {
+  font-size: 16px;
+}
+
 .news-body .btn {
   min-width: 135px;
   width: 135px;
@@ -516,7 +521,7 @@ li {
 
 .app-desc {
   padding-top: 100px;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .app_tariff {
@@ -569,6 +574,11 @@ li {
   margin-bottom: 17px;
 }
 
+.similar-info p {
+  font-size: 16px;
+  color: #E0E0E0;
+}
+
 .similar-info h3,
 .similar-info p {
   text-align: center;
@@ -577,8 +587,8 @@ li {
 .footer {
   height: 100%;
   position: relative;
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 62px;
+  padding-bottom: 48px;
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
@@ -722,6 +732,7 @@ li {
   }
 
   .pricing-item h3 {
+    margin-top: 16px;
     font-size: 16px;
     line-height: 24px;
     font-weight: 700;
