@@ -507,19 +507,23 @@ a {
 
 .app_tariff {
   display: flex;
-  gap: 144px;
 }
 
 .app_about {
+  margin-top: 64px;
   flex-basis: 100%;
 }
 
 .app_about p {
-  margin-top: 64px;
   margin-bottom: 16px;
   text-align: left;
   font-size: 16px;
   flex-basis: 100%;
+}
+
+.app_photo {
+  display: flex;
+  justify-content: center;
 }
 
 .app_btn {
