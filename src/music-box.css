@@ -350,7 +350,7 @@ a {
 .discography_flex {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 25px 50px;
 }
 
 .discography-item img {
