@@ -291,6 +291,7 @@ a {
 }
 
 .track-info_right-flex p,
+.track-info_right-flex a,
 .track-info p {
   font-size: 12.8px;
   color: #E0E0E0;
@@ -301,6 +302,10 @@ a {
   line-height: 19.2px;
   text-transform: uppercase;
   color: #fff;
+}
+
+.track-info_right-flex a {
+  text-transform: capitalize;
 }
 
 .price {
