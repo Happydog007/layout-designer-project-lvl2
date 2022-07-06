@@ -74,7 +74,7 @@ a {
   text-decoration: none;
 }
 
-.bg::before {
+.bg {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -94,11 +94,11 @@ a {
   padding: 200px 0;
 }
 
-.header::before {
+.header {
   background-image: url(images/banner.png);
 }
 
-.header-artist::before {
+.header-artist {
   background-image: url(images/Morten\ Harket.png);
 }
 
@@ -328,17 +328,17 @@ a {
   padding: 20px 0;
 }
 
-.bg-free::before {
+.bg-free {
   border-radius: 1rem;
   background-image: url(images/subscribe_1.png);
 }
 
-.bg-std::before {
+.bg-std {
   border-radius: 1rem;
   background-image: url(images/subscribe_2.png);
 }
 
-.bg-prem::before {
+.bg-prem {
   border-radius: 1rem;
   background-image: url(images/subscribe_3.png);
 }
@@ -637,6 +637,11 @@ a {
   }
   
 @media (max-width: 680px) {
+
+  body > section {
+    padding: 0 20px;
+  }
+
   h1 {
     font-size: 30px;
     line-height: 45px;
@@ -704,8 +709,8 @@ a {
     flex-direction: column;
   }
 
-  .div-center {
-    margin: 0 20px;
+  .header .div-center {
+    padding: 0 20px;
   }
 
   .flex {
