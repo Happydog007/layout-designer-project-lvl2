@@ -454,6 +454,7 @@ a {
 
 .news-item {
   display: flex;
+  height: 286px;
   gap: 50px;
   margin-top: 48px;
 }
@@ -748,6 +749,14 @@ a {
     font-size: 16px;
     line-height: 24px;
     text-transform: capitalize;
+  }
+
+  .news-item {
+    height: 100%;
+  }
+
+  .ozzy {
+    margin-top: 0;
   }
 
   .news-author {
