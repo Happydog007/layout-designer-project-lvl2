@@ -617,8 +617,9 @@ li {
   text-transform: none;
 }
 
-.footer_nav h3 {
+.footer_nav h2 {
   margin-bottom: 15px;
+  text-align: start;
   font-family: 'Roboto Regular', sans-serif;
   font-size: 18px;
   line-height: 27px;
