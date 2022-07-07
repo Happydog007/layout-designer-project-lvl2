@@ -306,6 +306,7 @@ li {
 }
 
 .track-info_right-flex h3 {
+  font-family: "Roboto Bold", sans-serif;
   font-weight: 700;
   line-height: 19.2px;
   text-transform: uppercase;
@@ -450,7 +451,7 @@ li {
 .price_description {
   text-align: center;
   font-size: 16px;
-  margin-top: 40px;
+  margin-top: 43px;
 }
 
 .musicians {
@@ -458,14 +459,20 @@ li {
 }
 
 .news-item {
-  display: flex;
   height: 286px;
-  gap: 50px;
   margin-top: 48px;
 }
 
 .eminem-photo {
-  flex-basis: 100%;
+  margin-right: 50px;
+  height: 286px;
+  float: left;
+}
+
+.ozzy-photo {
+  margin-left: 50px;
+  height: 286px;
+  float: right;
 }
 
 .news-body {
@@ -487,7 +494,7 @@ li {
   font-size: 16px;
 }
 
-.news-body .btn {
+.news-footer .btn {
   min-width: 135px;
   width: 135px;
   padding: 16px 30px;
@@ -521,7 +528,7 @@ li {
 
 .app-desc {
   padding-top: 100px;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .app_tariff {
@@ -742,6 +749,10 @@ li {
     font-size: 16px;
   }
 
+  .bg-free {
+    margin-top: 46px;
+  }
+
   .list-of-tracks {
     display: flex;
     flex-direction: column;
@@ -770,6 +781,13 @@ li {
     margin-top: 0;
   }
 
+  .news-item > img {
+    height: 100%;
+    width: 100%;
+    float: none;
+    margin: 0 0 50px 0;
+  }
+
   .news-author {
     margin-top: 24px;
   }
@@ -783,6 +801,14 @@ li {
   .similar-item img {
     width: 137px;
     height: 137px;
+  }
+
+  .similar-item {
+    height: 230px;
+  }
+
+  .similar-item img {
+    margin-bottom: 18px;
   }
 
   .app_tariff {
