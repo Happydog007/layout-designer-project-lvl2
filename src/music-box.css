@@ -795,10 +795,15 @@ li {
 
   .ozzy-photo {
     height: 187px;
+    margin-bottom: 48px
   }
 
   .news-author {
     margin-top: 24px;
+  }
+
+  .news-author:last-of-type {
+    margin-top: 16px;
   }
 
   .news-author .btn {
