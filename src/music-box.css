@@ -481,7 +481,7 @@ li {
 
 .news-body h3 {
   margin-bottom: 30px;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto Regular", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -781,11 +781,20 @@ li {
     margin-top: 0;
   }
 
-  .news-item > img {
+  .eminem-photo,
+  .ozzy-photo {
     height: 100%;
     width: 100%;
     float: none;
-    margin: 0 0 50px 0;
+    margin: 0 0 48px 0;
+  }
+
+  .eminem-photo {
+    height: 186px;
+  }
+
+  .ozzy-photo {
+    height: 187px;
   }
 
   .news-author {
@@ -822,6 +831,7 @@ li {
   }
   
   .app_about {
+    margin-top: 0;
     flex-basis: auto;
   }
 
@@ -831,6 +841,7 @@ li {
   }
 
   .app_btn {
+    margin-bottom: 0;
     text-transform: none;
   }
 
