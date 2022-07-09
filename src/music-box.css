@@ -210,6 +210,12 @@ li {
   border-radius: 50px;
 }
 
+.header-input-flex {
+  width: 570px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .header-main p {
   text-align: center;
   margin-top: 31px;
@@ -238,6 +244,7 @@ li {
 
 .header-main .header-form-submit {
   display: inline-block;
+  width: 570px;
   text-align: center;
   margin-bottom: 0;
   padding: 20px 30px;
@@ -707,6 +714,7 @@ li {
   }
 
   .header-href {
+    line-height: 13px;
     font-weight: 700;
   }
 
@@ -715,12 +723,26 @@ li {
     margin-top: 18px;
   }
 
-  .header-input-form {
+  .header-input-form,
+  .header-input {
+    width: calc(100vw - 40px);
+  }
+
+  .header-input-flex {
+    flex-direction: column;
+  }
+
+  .header-grid .header-form-submit,
+  .header-input-flex {
     width: calc(100vw - 40px);
   }
 
   .header-morten {
     padding-top: 225px auto;
+  }
+
+  .header-main {
+    padding-top: 250px;
   }
 
   .header-main p {
