@@ -79,7 +79,7 @@ li {
 }
 
 .div-center {
-  max-width: 1240px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -187,11 +187,12 @@ li {
 }
 
 .header-href {
-  color: #cacaca;
+  color: #fff;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
   line-height: 16px;
+  text-transform: uppercase;
   margin-right: 24px;
 }
 
@@ -224,7 +225,7 @@ li {
   color: #fff;
 }
 
-.header-main form {
+.header-main input {
   min-width: 270px;
   min-height: 50px;
   padding-left: 20px;
@@ -717,9 +718,15 @@ li {
     padding-top: 250px;
   }
 
+  .header-main p {
+    margin: 16px auto;
+    font-size: 16px;
+  }
+
   .header-grid {
     display: flex;
     flex-direction: column;
+    row-gap: 0;
   }
 
   .header-nav {

@@ -12,46 +12,41 @@
 </head>
 
 <body>
-    <section id="page-description">
-        <header>
-            <nav class="header-nav">
-                <div class="header-left-flex">
-                    <div class="header-name">
-                        <img class="header-logo" src="images/logo.svg" alt="musician note">
-                        <a class="header-href header-href-margin" href="#">Music Box</a>
-                    </div>
-                    <a class="header-href" href="#">Главная</a>
-                    <a class="header-href" href="#">Каталог</a>
-                    <a class="header-href" href="artist.html">Исполнители</a>
-                    <a class="header-href" href="#">Контакты</a>
+    <header>
+        <nav class="header-nav">
+            <div class="header-left-flex">
+                <div class="header-name">
+                    <img class="header-logo" src="images/logo.svg" alt="musician note">
+                    <p class="header-href header-href-margin" href="#">Music Box</p>
                 </div>
-                <form class="header-search-form">
-                    <label for="search" class="sr-only">Поиск по сайту</label>
-                    <input class="header-input-form" id="search" type="text" placeholder="Поиск...">
-                </form>
-            </nav>
-        </header>
-        <section class="header-main bg header">
-            <div class="div-center">
-                <h1>Онлайн музыка где угодно</h1>
-                <h2>без ограничений</h2>
-                <p>Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
-                <div class="header-grid">
-                    <form class="header-form-name">
-                        <label for="name" class="sr-only">Введите ваше имя</label>
-                        <input class="header-input" id="name" type="text" placeholder="Имя">
-                    </form>
-                    <form class="header-form-email">
-                        <label for="email" class="sr-only">Введите ваш email</label>
-                        <input class="header-input" id="email" type="text" placeholder="Email">
-                    </form>
-                    <form class="header-form-submit">
-                        <label for="send" class="sr-only">Получить доступ</label>
-                        <input class="header-input header-input-send" id="send" type="submit" value="Получить доступ">
-                    </form>
-                </div>
+                <a class="header-href" href="#">Главная</a>
+                <a class="header-href" href="#">Каталог</a>
+                <a class="header-href" href="artist.html">Исполнители</a>
+                <a class="header-href" href="#">Контакты</a>
             </div>
-        </section>
+            <form class="header-search-form">
+                <label for="search" class="sr-only">Поиск по сайту</label>
+                <input class="header-input-form" id="search" type="text" placeholder="Поиск...">
+            </form>
+        </nav>
+    </header>
+
+    <section class="header-main bg header" id="page-description">
+        <div class="div-center">
+            <h1>Онлайн музыка где угодно</h1>
+            <h2>без ограничений</h2>
+            <p>Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+            <div class="header-grid">
+
+                <input class="header-form-name header-input" id="name" type="text" placeholder="Имя">
+
+                <input class="header-form-email header-input" id="email" type="text" placeholder="Email">
+
+                <button class="header-form-submit header-input header-input-send" id="send" type="submit">
+                    Получить доступ
+                </button>
+            </div>
+        </div>
     </section>
 
     <section class="price div-center" id="page-pricing">

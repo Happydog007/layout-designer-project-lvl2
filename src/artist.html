@@ -12,41 +12,40 @@
 </head>
 
 <body>
-    <section id="page_description">
-        <header>
-            <nav class="header-nav">
-                <div class="header-left-flex">
-                    <div class="header-name">
-                        <img class="header-logo" src="images/logo.svg" alt="musician note">
-                        <a class="header-href header-href-margin" href="#">Music Box</a>
-                    </div>
-                    <a class="header-href" href="#">Главная</a>
-                    <a class="header-href" href="#">Каталог</a>
-                    <a class="header-href" href="artist.html">Исполнители</a>
-                    <a class="header-href" href="#">Контакты</a>
+    <header>
+        <nav class="header-nav">
+            <div class="header-left-flex">
+                <div class="header-name">
+                    <img class="header-logo" src="images/logo.svg" alt="musician note">
+                    <a class="header-href header-href-margin" href="#">Music Box</a>
                 </div>
-                <form class="header-search-form">
-                    <label for="search" class="sr-only">Поиск по сайту</label>
-                    <input class="header-input-form" id="search" type="text" placeholder="Поиск...">
-                </form>
-            </nav>
-        </header>
-        <section class="header-main bg header-artist header-morten">
-            <div class="div-center">
-                <h1>Morten Harket</h1>
-                <p class="number-fans">24 875 поклонников</p>
-                <div class="header-flex">
-                    <a class="btn app-btn header-btn">
-                        <img src="images/play-button.svg" alt="play-button">
-                        МИКС
-                    </a>
-                    <a class="btn app-btn header-btn">
-                        <img src="images/heart.svg" alt="play-button">
-                        В ИЗБРАННОЕ
-                    </a>
-                </div>
+                <a class="header-href" href="index.html">Главная</a>
+                <a class="header-href" href="#">Каталог</a>
+                <a class="header-href" href="#">Исполнители</a>
+                <a class="header-href" href="#">Контакты</a>
             </div>
-        </section>
+            <form class="header-search-form">
+                <label for="search" class="sr-only">Поиск по сайту</label>
+                <input class="header-input-form" id="search" type="text" placeholder="Поиск...">
+            </form>
+        </nav>
+    </header>
+
+    <section class="header-main bg header-artist header-morten" id="page_description">
+        <div class="div-center container">
+            <h1>Morten Harket</h1>
+            <p class="number-fans">24 875 поклонников</p>
+            <div class="header-flex">
+                <a class="btn app-btn header-btn">
+                    <img src="images/play-button.svg" alt="play-button">
+                    МИКС
+                </a>
+                <a class="btn app-btn header-btn">
+                    <img src="images/heart.svg" alt="play-button">
+                    В ИЗБРАННОЕ
+                </a>
+            </div>
+        </div>
     </section>
 
     <section class="div-center tracks" id="page-popular-track">
