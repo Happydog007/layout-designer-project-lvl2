@@ -741,8 +741,18 @@ li {
     padding-top: 225px auto;
   }
 
+  .header-morten .div-center {
+    padding-top: 25px;
+  }
+
   .header-main {
-    padding-top: 250px;
+    padding-top: 200px;
+  }
+
+  .header-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
   }
 
   .header-main p {
@@ -765,7 +775,7 @@ li {
   }
 
   .header .div-center {
-    padding: 0 20px;
+    padding: 50px 20px 0;
   }
 
   .flex {
