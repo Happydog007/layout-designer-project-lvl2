@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,18 +10,19 @@
     </title>
     <link rel="stylesheet" href="music-box.css">
 </head>
+
 <body>
-    <header class="bg header-artist" id="page_description">
-        <div class="div-center">
+    <section id="page_description">
+        <header>
             <nav class="header-nav">
                 <div class="header-left-flex">
                     <div class="header-name">
                         <img class="header-logo" src="images/logo.svg" alt="musician note">
                         <a class="header-href header-href-margin" href="#">Music Box</a>
                     </div>
-                    <a class="header-href" href="index.html">Главная</a>
+                    <a class="header-href" href="#">Главная</a>
                     <a class="header-href" href="#">Каталог</a>
-                    <a class="header-href" href="#">Исполнители</a>
+                    <a class="header-href" href="artist.html">Исполнители</a>
                     <a class="header-href" href="#">Контакты</a>
                 </div>
                 <form class="header-search-form">
@@ -28,7 +30,9 @@
                     <input class="header-input-form" id="search" type="text" placeholder="Поиск...">
                 </form>
             </nav>
-            <section class="header-main header-morten">
+        </header>
+        <section class="header-main header-morten">
+            <div class="div-center">
                 <h1>Morten Harket</h1>
                 <p class="number-fans">24 875 поклонников</p>
                 <div class="header-flex">
@@ -41,16 +45,17 @@
                         В ИЗБРАННОЕ
                     </a>
                 </div>
-            </section>
-        </div>
-    </header>
+            </div>
+        </section>
+
+    </section>
 
     <section class="div-center tracks" id="page-popular-track">
         <div class="container">
             <h2>Популярные треки</h2>
             <div class="list-of-tracks">
                 <div class="popular-track">
-                    <img src="images/Wild Seed.png" alt="Morten Harket - Spanish Step">    
+                    <img src="images/Wild Seed.png" alt="Morten Harket - Spanish Step">
                     <div class="track-info">
                         <div class="track-info-right-flex">
                             <h3>Spanish Step</h3>
@@ -277,4 +282,5 @@
         </div>
     </footer>
 </body>
+
 </html>

@@ -161,6 +161,9 @@ li {
   max-width: 1200px;
   position: absolute;
   top: 25px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -711,7 +714,7 @@ li {
   }
 
   .header-main {
-    margin-top: 50px;
+    padding-top: 250px;
   }
 
   .header-grid {
