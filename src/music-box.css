@@ -145,6 +145,8 @@ li {
   justify-content: start;
   padding: 20px 30px;
   font-size: 12.8px;
+  text-transform: uppercase;
+  font-weight: 400;
   border-radius: 5px;
 }
 
@@ -190,12 +192,12 @@ li {
 
 .header-href {
   color: #fff;
+  font-family: "Roboto Medium", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
   line-height: 16px;
   text-transform: uppercase;
-  margin-right: 24px;
 }
 
 .header-name .header-href-margin {
@@ -206,6 +208,7 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 24px;
 }
 
 .header-input-form {
@@ -226,7 +229,7 @@ li {
 .header-main p {
   text-align: center;
   margin-top: 31px;
-  margin-bottom: 24px;
+  margin-bottom: 17px;
 }
 
 .header-grid {
@@ -748,6 +751,10 @@ li {
     padding-top: 225px auto;
   }
 
+  .header-morten h1 {
+    margin-top: 0;
+  }
+
   .header-morten .div-center {
     padding-top: 25px;
   }
@@ -761,6 +768,10 @@ li {
     flex-direction: column;
     align-items: flex-start;
     gap: 3px;
+  }
+
+  .header-menu li {
+    height: 13px;
   }
 
   .header-main p {
