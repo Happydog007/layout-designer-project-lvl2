@@ -112,11 +112,12 @@ li {
 }
 
 .header-artist {
-  padding-top: 250px;
+  padding-top: 200px;
   background-image: url(images/Morten\ Harket.png);
 }
 
 .header-morten h1 {
+  margin-top: 50px;
   margin-bottom: 16px;
   text-align: start;
 }
@@ -201,6 +202,12 @@ li {
   margin: 0;
 }
 
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .header-input-form {
   height: 25px;
   padding: 5px 0 5px 10px;
@@ -245,6 +252,7 @@ li {
 .header-main .header-form-submit {
   display: inline-block;
   width: 570px;
+  height: 57px;
   text-align: center;
   margin-bottom: 0;
   padding: 20px 30px;
@@ -706,7 +714,6 @@ li {
 
   .header-left-flex {
     align-items: flex-start;
-    gap: 3px 0;
   }
 
   .header-name {
@@ -752,6 +759,7 @@ li {
   .header-menu {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 3px;
   }
 
